@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "eslint:recommended",
+        "plugin:@sap/ui5-jsdocs/recommended"
+    ],
+    "ignorePatterns": [
+        "webapp/localservice/**",
+        "webapp/test/**",
+        "webapp/utils/locate-reuse-libs.js",
+        "dist/**",
+        "node_modules/"
+    ],
+    "plugins": [
+        "@sap/ui5-jsdocs"
+    ]
+}

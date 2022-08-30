@@ -3,42 +3,41 @@ lockfileVersion: 5.4
 importers:
 
   .:
-    specifiers: {}
-
-  packages/fe-v4-lrop:
     specifiers:
       '@babel/core': 7.18.13
       '@babel/eslint-parser': 7.14.7
-      '@sap-ux/ui5-middleware-fe-mockserver': '2'
       '@sap/eslint-plugin-ui5-jsdocs': 2.0.5
-      '@sap/ux-specification': UI5-1.102
-      '@sap/ux-ui5-tooling': '1'
-      '@sapui5/ts-types': 1.92.2
-      '@ui5/cli': ^2.14.1
       eslint: 7.32.0
       eslint-plugin-fiori-custom: 2.2.1
     devDependencies:
       '@babel/core': 7.18.13
       '@babel/eslint-parser': 7.14.7_yvyxucxu4syjjccj52qfaafshm
-      '@sap-ux/ui5-middleware-fe-mockserver': 2.1.27
       '@sap/eslint-plugin-ui5-jsdocs': 2.0.5
+      eslint: 7.32.0
+      eslint-plugin-fiori-custom: 2.2.1_eslint@7.32.0
+
+  packages/fe-v4-lrop:
+    specifiers:
+      '@sap-ux/ui5-middleware-fe-mockserver': '2'
+      '@sap/ux-specification': UI5-1.102
+      '@sap/ux-ui5-tooling': '1'
+      '@sapui5/ts-types': 1.92.2
+      '@ui5/cli': ^2.14.1
+    devDependencies:
+      '@sap-ux/ui5-middleware-fe-mockserver': 2.1.27
       '@sap/ux-specification': 1.102.4
       '@sap/ux-ui5-tooling': 1.7.1
       '@sapui5/ts-types': 1.92.2
       '@ui5/cli': 2.14.10
-      eslint: 7.32.0
-      eslint-plugin-fiori-custom: 2.2.1_eslint@7.32.0
 
   packages/sap.demo.fpmeasyuiapp:
     specifiers:
       '@prettier/plugin-xml': ^1.1.0
-      '@sap/eslint-plugin-ui5-jsdocs': ^2.0.5
       '@sap/ux-specification': latest
       '@sap/ux-ui5-fe-mockserver-middleware': '1'
       '@sap/ux-ui5-tooling': '1'
       '@sapui5/ts-types': ^1.96.0
       '@ui5/cli': ^2.14.1
-      eslint: ^7.32.0
       karma: ^6.3.9
       karma-chrome-launcher: ^3.1.0
       karma-coverage: ^2.1.0
@@ -49,13 +48,11 @@ importers:
       ui5-middleware-livereload: ^0.5.8
     devDependencies:
       '@prettier/plugin-xml': 1.2.0
-      '@sap/eslint-plugin-ui5-jsdocs': 2.0.8
       '@sap/ux-specification': 1.102.4
       '@sap/ux-ui5-fe-mockserver-middleware': 1.6.5
       '@sap/ux-ui5-tooling': 1.7.1
       '@sapui5/ts-types': 1.96.12
       '@ui5/cli': 2.14.10
-      eslint: 7.32.0
       karma: 6.4.0
       karma-chrome-launcher: 3.1.1
       karma-coverage: 2.2.0
@@ -513,19 +510,6 @@ packages:
 
   /@sap/eslint-plugin-ui5-jsdocs/2.0.5:
     resolution: {integrity: sha512-hx/PFJiAnU87YA7349p2hLRHVucX5bdXLk/jQoiU9sbMw1CzB2D8p0wEBTqjIYc/a2VIIIUXqEzsarwXYI/cPg==}
-    engines: {node: '>=10.0.0'}
-    dependencies:
-      comment-parser: 0.5.5
-      eslint: 6.8.0
-      lodash: 4.17.21
-      requireindex: 1.2.0
-      string-format: 2.0.0
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
-  /@sap/eslint-plugin-ui5-jsdocs/2.0.8:
-    resolution: {integrity: sha512-mgRsIZR/9iSCDpXYoPUwKR45dJGw4iEHy9IHbugaVFTitKbbeH+PwBxnrbfQJo3HftO/wcictAPrhLMLszkcjA==}
     engines: {node: '>=10.0.0'}
     dependencies:
       comment-parser: 0.5.5
