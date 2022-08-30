@@ -13,9 +13,9 @@ module.exports = function (config) {
         frameworks: ["ui5"],
         ui5: {
             type: "application",
-            configPath: "uimodule/ui5.yaml",
+            configPath: "ui5.yaml",
             paths: {
-                webapp: "uimodule/webapp"
+                webapp: "webapp"
             }
         },
         browsers: ["Chrome"],

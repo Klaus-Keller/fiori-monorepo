@@ -9,3 +9,8 @@ deployer/resources/
 Makefile*
 mta-*
 approuter/*/webapp/
+.scp/
+.env
+resources
+archive.zip
+.*_mta_build_tmp

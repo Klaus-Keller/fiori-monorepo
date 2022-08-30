@@ -1,0 +1,11 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="sap.demo.fpmeasyuiapp.ext.main.Main">
+    <Page title="Main" id="main_page">
+        <content>
+            <mvc:View id="main_view" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:macros="sap.fe.macros" controllerName="sap.fe.core.fpmExplorer.tableDefault.TableDefault">
+                <Panel id="table_panel" headerText="Table in Display Mode">
+                    <macros:Table metaPath="@com.sap.vocabularies.UI.v1.LineItem" readOnly="true" id="LineItemTable" />
+                </Panel>
+            </mvc:View>
+        </content>
+    </Page>
+</mvc:View>
